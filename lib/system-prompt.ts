@@ -1,5 +1,19 @@
 import centros from "@/data/centros-practicas.json";
 
+type Centro = (typeof centros)[number];
+
+// Minimización de datos: el contacto de cada entidad (nombre, email, cargo) no se usa
+// nunca para el emparejamiento ni aparece en las recomendaciones — se quita antes de
+// mandarlo al modelo para no enviar datos personales innecesarios.
+function anonimizarCentros(lista: Centro[]) {
+  return lista.map(({ entidad, ...resto }) => {
+    const { contacto, ...entidadSinContacto } = entidad;
+    return { ...resto, entidad: entidadSinContacto };
+  });
+}
+
+const centrosAnonimizados = anonimizarCentros(centros);
+
 export function buildSystemPrompt(): string {
   return `Eres el asistente de prácticas del Máster Universitario en Humanidades y Patrimonio Digital.
 
@@ -42,6 +56,6 @@ Cierra recordando que esta es una preselección para comentar con la Dra. Paloma
 
 ## Datos de las entidades (fuente única de verdad — no inventes entidades ni datos que no estén aquí)
 
-${JSON.stringify(centros, null, 2)}
+${JSON.stringify(centrosAnonimizados, null, 2)}
 `;
 }
