@@ -1,9 +1,29 @@
+
 "use client";
 
 import { useState, useRef, useEffect } from "react";
 
 type Role = "user" | "assistant";
 type ChatMessage = { role: Role; content: string };
+
+// Render ligero de markdown: encabezados "#" y negritas "**texto**".
+// Evita añadir una dependencia nueva solo para esto.
+function renderMarkdownLite(text: string) {
+  return text.split("\n").map((line, i) => {
+    const headerMatch = line.match(/^#{1,6}\s+(.*)/);
+    const content = headerMatch ? headerMatch[1] : line;
+    const parts = content.split(/(\*\*[^*]+\*\*)/g).map((part, j) => {
+      const boldMatch = part.match(/^\*\*([^*]+)\*\*$/);
+      return boldMatch ? <strong key={j}>{boldMatch[1]}</strong> : part;
+    });
+    return (
+      <span key={i} className={headerMatch ? "font-semibold" : undefined}>
+        {parts}
+        {i < text.split("\n").length - 1 && <br />}
+      </span>
+    );
+  });
+}
 
 const INITIAL_ASSISTANT_MESSAGE: ChatMessage = {
   role: "assistant",
@@ -73,7 +93,7 @@ export default function Home() {
                     : "bg-zinc-100 text-zinc-900"
                 }`}
               >
-                {m.content}
+                {m.role === "assistant" ? renderMarkdownLite(m.content) : m.content}
               </div>
             </div>
           ))}
@@ -116,3 +136,4 @@ export default function Home() {
     </div>
   );
 }
+
