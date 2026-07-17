@@ -29,7 +29,13 @@ export async function POST(req: NextRequest) {
     body: JSON.stringify({
       model: MODEL,
       max_tokens: 1024,
-      system: buildSystemPrompt(),
+      system: [
+        {
+          type: "text",
+          text: buildSystemPrompt(),
+          cache_control: { type: "ephemeral" },
+        },
+      ],
       messages,
     }),
   });
