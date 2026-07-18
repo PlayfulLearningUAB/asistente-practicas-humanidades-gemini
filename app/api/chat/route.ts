@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
   }
 
   const data = await response.json();
-  const text = data.candidates?.[0]?.content?.parts?.find((p) => p.text)?.text ?? "";
+  const text = data.candidates?.[0]?.content?.parts?.find((p: { text?: string }) => p.text)?.text ?? "";
 
   return NextResponse.json({ text });
 }
