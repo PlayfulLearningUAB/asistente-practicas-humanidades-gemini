@@ -30,7 +30,13 @@ La clave se genera en [Google AI Studio](https://aistudio.google.com/apikey). El
 
 ## Despliegue en Vercel
 
+
 1. Subir este proyecto a un repositorio (GitHub).
 2. Importarlo en [vercel.com/new](https://vercel.com/new).
 3. En "Environment Variables", añadir `GEMINI_API_KEY` con la clave real.
 4. Deploy.
+
+
+## Autoría
+
+Proyecto creado por Suren Vázquez (Fundació Citilab), en colaboración con Paloma Valdivia Vizarreta (coordinación de prácticas del Máster en Humanidades y Patrimonio Digital, UAB).
