@@ -3892,5 +3892,292 @@
     ],
     "otraDimensionValor": "",
     "otroAspecto": ""
+  },
+  {
+    "id": 45,
+    "entidad": {
+      "nombre": "Museu Abelló. Fundació Municipal d'Art",
+      "web": "https://www.museuabello.cat/es/",
+      "direccion": "Pepa Ventura Altayó",
+      "ayuntamiento": "Ajuntament de Mollet del Vallès",
+      "convenioUAB": false,
+      "convenioCon": "",
+      "sector": "Administración pública o sector público.",
+      "matizSector": ""
+    },
+    "tipoOpcion": "Prácticas (6 ECTS 150 horas totales)",
+    "propuesta": {
+      "titulo": "Pràctiques professionals al Museu Abelló",
+      "necesidadReto": "La relació del Museu Abelló amb el món digital es troba actualment en una fase encara molt inicial. Qualsevol iniciativa en aquest àmbit seria, per a nosaltres, un al·licient i una oportunitat que caldria tenir en compte.\r\n\r\nAquesta vinculació més estreta amb el món digital es podria aplicar a diversos àmbits: la documentació de la col·lecció, tant pel que fa als béns mobles com al nostre fons documental; les exposicions en sala, mitjançant la millora dels recursos existents, dels itineraris i de les propostes expositives, així com a través d’exposicions en línia i altres recursos digitals; la difusió i la comunicació; o qualsevol altra nova línia de treball que ens permeti apropar-nos al camp de les humanitats digitals.",
+      "objetivos": [
+        "Crear, adaptar o mejorar un recurso, contenido, prototipo o experiencia digital.",
+        "Explorar una nueva línea de trabajo vinculada a las humanidades digitales, el patrimonio digital o la innovación cultural.",
+        "Evaluar una herramienta, recurso, experiencia o proceso ya existente.",
+        "Comprender mejor una necesidad, fondo, colección, público, proceso o reto de la entidad."
+      ],
+      "otroObjetivo": "Qualsevol altra nova línia de treball que ens permeti apropar-nos al camp de les humanitats digitals.",
+      "areasActividad": [
+        "Digitalización, tratamiento y modelado de materiales culturales o patrimoniales. Incluye tareas relacionadas con digitalización de textos, imágenes, sonidos, vídeos u objetos",
+        "edición digital",
+        "tratamiento de materiales",
+        "escaneo 3D",
+        "modelado 3D",
+        "fotogrametría",
+        "impresión 3D o preparación de materiales digitales para su conservación, estudio o difusión.",
+        "Diseño de recursos digitales, interactivos o inmersivos. Incluye tareas relacionadas con recursos web, mapas digitales, visualización de datos, narrativas interactivas, realidad aumentada, realidad virtual, vídeo 360, exposiciones digitales, recorridos virtuales, experiencias híbridas o plataformas de acceso a contenidos.",
+        "Comunicación, divulgación, mediación cultural y educación patrimonial. Incluye tareas relacionadas con creación de contenidos, comunicación pública, redes sociales, materiales divulgativos, educación patrimonial, mediación con públicos, accesibilidad, participación ciudadana o adaptación de contenidos para públicos diversos."
+      ],
+      "otraAreaActividad": "",
+      "entornoTecnologico": [
+        "Digitalización, edición y tratamiento de materiales culturales o patrimoniales. Incluye herramientas para digitalizar, escanear, editar, transformar o preparar documentos, imágenes, sonidos, vídeos, objetos, piezas patrimoniales o materiales de archivo.",
+        "Creación de recursos digitales, interactivos o inmersivos. Incluye herramientas para diseñar recursos web, mapas digitales, visualización de datos, narrativas interactivas, realidad aumentada, realidad virtual, vídeo 360, exposiciones digitales, recorridos virtuales o experiencias híbridas.",
+        "Comunicación, colaboración y accesibilidad digital. Incluye páginas web, redes sociales, newsletters, plataformas de difusión, herramientas colaborativas, publicación en abierto, contenidos para comunicación pública o gestión digital de actividades y proyectos."
+      ],
+      "otroEntornoTecnologico": "",
+      "herramientas": "Tot i que desconeixem les eines, programes o plataformes que s'utilitzaràn, les que podrà aportar el museu són escasses: disposem d'ordinador, escàner, tauletes i càmera de fotos quant a eines."
+    },
+    "capacidades": {
+      "comprenderNecesidadesSocioculturales": 2,
+      "disenarSolucionesDigitales": 2,
+      "aplicarTecnicasDigitalizacion": 2,
+      "comunicarMediarPatrimonio": 2,
+      "evaluarCriticamenteTecnologias": 1,
+      "incorporarEquidadAccesibilidad": 2,
+      "otra": null
+    },
+    "otraAreaActividad2": "",
+    "perfiles": {
+      "exploratorio": 3,
+      "tecnicoAplicado": 3,
+      "comunicativo": 3,
+      "investigador": 1,
+      "educativoMediacion": 3
+    },
+    "conocimientoPrevioRecomendado": "",
+    "logistica": {
+      "modalidad": "Semipresencial.",
+      "lugarDescripcion": "Les pràctiques es realitzaran al espais del Museu Abelló i de la Casa del Pintor Abelló, on se situen les oficines i el centre de documentació.",
+      "horario": "Mañana.",
+      "disponibilidad": "A concretar.",
+      "plazas": 1
+    },
+    "recursos": "Podem proporcionar tot el que s'indica a l'anunciat: ordinador, accés a les col·leccions, accés a software, espai de treball, material tècnic, documentació variada i suport professional.",
+    "acompanamiento": [
+      "Reunión inicial de contextualización.",
+      "Seguimiento periódico.",
+      "Revisión de avances.",
+      "Acceso a documentación y materiales.",
+      "Orientación técnica o metodológica",
+      "Participación en reuniones de equipo.",
+      "Evaluación final de la experiencia."
+    ],
+    "otroAcompanamiento": "",
+    "contactoPublico": "Tot i que la proposta encara està per definir, és possible que impliqui un contacte directe amb els públics o, com a mínim, que es treballi en iniciatives orientades a establir-hi aquest contacte. Com a entitat inclusiva, el Museu Abelló s’adreça a un públic molt divers. Un cop seleccionada la proposta que es vol desenvolupar, serà més fàcil concretar i delimitar el perfil dels públics als quals s’adreça.",
+    "cuidadosEticos": [
+      "Protección de datos.",
+      "Derechos de imagen.",
+      "Consentimiento informado.",
+      "Propiedad intelectual."
+    ],
+    "otroCuidadoEtico": "",
+    "publicacionAbierta": "Sí, es un interés compartido, acordaremos el qué.",
+    "dimensionValor": [
+      "Accesibilidad e inclusión.",
+      "Comunicación pública de la cultura.",
+      "Transformación digital."
+    ],
+    "otraDimensionValor": "",
+    "otroAspecto": ""
+  },
+  {
+    "id": 46,
+    "entidad": {
+      "nombre": "Ajuntament de Montornès del Vallès",
+      "web": "www.montornes.cat.",
+      "direccion": "Avinguda de la Llibertat, 2",
+      "ayuntamiento": "Ajuntament de Montornès del Vallès",
+      "convenioUAB": false,
+      "convenioCon": "",
+      "sector": "Administración pública o sector público.",
+      "matizSector": ""
+    },
+    "tipoOpcion": "Prácticas (6 ECTS 150 horas totales)",
+    "propuesta": {
+      "titulo": "Tractament de documentació històrica de Montornès del Vallès",
+      "necesidadReto": "A l'Arxiu Municipal de Montornès del Vallès conservem diversos fons documentals que contenen documentació històrica del municipi, des de l'època medieval i fins el segle XX. És missió de l'Arxiu Municipal organitzar aquesta documentació i posar-la a l'abast de la ciutadania. En l'actualitat, hi ha fons que encara estan pendents de tractament arxivístic, i contenen tant documents en suport paper com fotografies. Les tasques de l'estudiant consistirien en donar suport, sempre sota la supervisió de l'arxiver municipal, a la classificació, ordenació, instal·lació, i sobretot descripció de documents i expedients en suport paper o de fotografies custodiades a l'Arxiu, i/o en la publicació de les descripcions o de les imatges dels propis documents a través dels espais de difusió web de la documentació municipal (IMAGINA en el cas de les fotografies, i ARXIUS EN LÍNIA en el cas de documents en altres suports).",
+      "objetivos": [
+        "Crear, adaptar o mejorar un recurso, contenido, prototipo o experiencia digital.",
+        "Evaluar una herramienta, recurso, experiencia o proceso ya existente.",
+        "Comprender mejor una necesidad, fondo, colección, público, proceso o reto de la entidad."
+      ],
+      "otroObjetivo": "-",
+      "areasActividad": [
+        "Documentación, catalogación y gestión de información. Incluye tareas relacionadas con fondos, colecciones, archivos, bases de datos, inventarios, metadatos, repositorios, documentación de procesos o sistematización de materiales.",
+        "Digitalización, tratamiento y modelado de materiales culturales o patrimoniales. Incluye tareas relacionadas con digitalización de textos, imágenes, sonidos, vídeos u objetos",
+        "edición digital",
+        "tratamiento de materiales",
+        "escaneo 3D",
+        "modelado 3D",
+        "fotogrametría",
+        "impresión 3D o preparación de materiales digitales para su conservación, estudio o difusión."
+      ],
+      "otraAreaActividad": "-",
+      "entornoTecnologico": [
+        "Gestión, organización y preservación de información digital. Incluye bases de datos, inventarios, metadatos, gestores de colecciones, repositorios, sistemas de catalogación, plataformas documentales, archivos digitales o herramientas de preservación digital.",
+        "Digitalización, edición y tratamiento de materiales culturales o patrimoniales. Incluye herramientas para digitalizar, escanear, editar, transformar o preparar documentos, imágenes, sonidos, vídeos, objetos, piezas patrimoniales o materiales de archivo."
+      ],
+      "otroEntornoTecnologico": "-",
+      "herramientas": "És possible, tot i que hores d'ara encara no es pot assegurar, que l'estudiant treballi amb documents en format Excel i Access, i també és possible que treballi amb dos aplicatius que permeten publicar continguts al Portal d'imatges IMAGINA i a la plataforma d'arxius ARXIUS EN LÍNIA."
+    },
+    "capacidades": {
+      "comprenderNecesidadesSocioculturales": 1,
+      "disenarSolucionesDigitales": 1,
+      "aplicarTecnicasDigitalizacion": 2,
+      "comunicarMediarPatrimonio": 1,
+      "evaluarCriticamenteTecnologias": 1,
+      "incorporarEquidadAccesibilidad": 1,
+      "otra": null
+    },
+    "otraAreaActividad2": "-",
+    "perfiles": {
+      "exploratorio": 2,
+      "tecnicoAplicado": 4,
+      "comunicativo": 2,
+      "investigador": 4,
+      "educativoMediacion": 2
+    },
+    "conocimientoPrevioRecomendado": "Disposar de coneixements previs en arxivística i gestió documental seria especialment recomanable i permetria ampliar el ventall de tasques a realitzar. Així mateix, tenir una formació en Història, i més concretament, coneixements sòlids de paleografia i diplomàtica, també permetria ampliar el ventall de tasques a realitzar.",
+    "logistica": {
+      "modalidad": "Presencial.",
+      "lugarDescripcion": "Es treballaria directament amb l'arxiver municipal, única persona que treballa a l'Arxiu Històric Municipal.",
+      "horario": "Mañana.",
+      "disponibilidad": "Segundo semestre: febrero-mayo",
+      "plazas": 1
+    },
+    "recursos": "L'Ajuntament facilitarà un espai de treball ampli i ben acondicionat amb tot l'equipament necessari a nivell de hardware i software a l'estudiant perquè pugui desenvolupar les seves tasques, i tindrà l'acompanyament de l'arxiver municipal.",
+    "acompanamiento": [
+      "Reunión inicial de contextualización.",
+      "Seguimiento periódico.",
+      "Acceso a documentación y materiales.",
+      "Orientación técnica o metodológica",
+      "Evaluación final de la experiencia."
+    ],
+    "otroAcompanamiento": "-",
+    "contactoPublico": "-",
+    "cuidadosEticos": [
+      "Protección de datos.",
+      "Derechos de imagen.",
+      "Propiedad intelectual.",
+      "Derechos de autoría.",
+      "Licencias de uso o publicación."
+    ],
+    "otroCuidadoEtico": "-",
+    "publicacionAbierta": "Se debe valorar internamente.",
+    "dimensionValor": [
+      "Accesibilidad e inclusión.",
+      "Comunicación pública de la cultura.",
+      "Mejora de la documentación o preservación patrimonial."
+    ],
+    "otraDimensionValor": "-",
+    "otroAspecto": "-"
+  },
+  {
+    "id": 47,
+    "entidad": {
+      "nombre": "La Kaseta Ideas Factory, slu",
+      "web": "https://lakaseta.com/",
+      "direccion": "Carrer Sant Jordi, 8 - local\r\n08500 Vic (Barcelona)",
+      "ayuntamiento": "Vic",
+      "convenioUAB": true,
+      "convenioCon": "Carmina Crusafon Baqués\r\nCoordinadora \r\nMàster Universitari en Periodisme i Innovació en continguts digitals.",
+      "sector": "Sector privado, empresa o emprendimiento cultural y tecnológico.",
+      "matizSector": ""
+    },
+    "tipoOpcion": "Prácticas (6 ECTS 150 horas totales)",
+    "propuesta": {
+      "titulo": "Pràctiques en una productora audiovisual",
+      "necesidadReto": "La documentació i la recerca, la gestió i organització de continguts digitals, la catalogació i preservació d’arxius, la comunicació digital.",
+      "objetivos": [
+        "Apoyar un proyecto de investigación, transferencia, comunicación o mediación cultural.",
+        "Explorar una nueva línea de trabajo vinculada a las humanidades digitales, el patrimonio digital o la innovación cultural.",
+        "Evaluar una herramienta, recurso, experiencia o proceso ya existente."
+      ],
+      "otroObjetivo": "No",
+      "areasActividad": [
+        "Documentación, catalogación y gestión de información. Incluye tareas relacionadas con fondos, colecciones, archivos, bases de datos, inventarios, metadatos, repositorios, documentación de procesos o sistematización de materiales.",
+        "Digitalización, tratamiento y modelado de materiales culturales o patrimoniales. Incluye tareas relacionadas con digitalización de textos, imágenes, sonidos, vídeos u objetos",
+        "edición digital",
+        "tratamiento de materiales",
+        "escaneo 3D",
+        "modelado 3D",
+        "fotogrametría",
+        "impresión 3D o preparación de materiales digitales para su conservación, estudio o difusión.",
+        "Comunicación, divulgación, mediación cultural y educación patrimonial. Incluye tareas relacionadas con creación de contenidos, comunicación pública, redes sociales, materiales divulgativos, educación patrimonial, mediación con públicos, accesibilidad, participación ciudadana o adaptación de contenidos para públicos diversos."
+      ],
+      "otraAreaActividad": "No",
+      "entornoTecnologico": [
+        "Gestión, organización y preservación de información digital. Incluye bases de datos, inventarios, metadatos, gestores de colecciones, repositorios, sistemas de catalogación, plataformas documentales, archivos digitales o herramientas de preservación digital.",
+        "Digitalización, edición y tratamiento de materiales culturales o patrimoniales. Incluye herramientas para digitalizar, escanear, editar, transformar o preparar documentos, imágenes, sonidos, vídeos, objetos, piezas patrimoniales o materiales de archivo.",
+        "Comunicación, colaboración y accesibilidad digital. Incluye páginas web, redes sociales, newsletters, plataformas de difusión, herramientas colaborativas, publicación en abierto, contenidos para comunicación pública o gestión digital de actividades y proyectos.",
+        "Accesibilidad y adaptación digital de contenidos. Incluye subtitulado, transcripción, lectura fácil, adaptación de contenidos para públicos diversos, recursos de accesibilidad digital o herramientas orientadas a mejorar el acceso a la información y la participación.",
+        "Inteligencia artificial aplicada a cultura, patrimonio o investigación. Incluye usos vinculados a transcripción, clasificación, análisis de información, apoyo a la creación de contenidos, organización de materiales o exploración crítica y ética de herramientas de IA."
+      ],
+      "otroEntornoTecnologico": "No",
+      "herramientas": "No"
+    },
+    "capacidades": {
+      "comprenderNecesidadesSocioculturales": 2,
+      "disenarSolucionesDigitales": 2,
+      "aplicarTecnicasDigitalizacion": 2,
+      "comunicarMediarPatrimonio": 1,
+      "evaluarCriticamenteTecnologias": 1,
+      "incorporarEquidadAccesibilidad": 1,
+      "otra": 1
+    },
+    "otraAreaActividad2": "No",
+    "perfiles": {
+      "exploratorio": 4,
+      "tecnicoAplicado": 4,
+      "comunicativo": 3,
+      "investigador": 3,
+      "educativoMediacion": 1
+    },
+    "conocimientoPrevioRecomendado": "",
+    "logistica": {
+      "modalidad": "Presencial.",
+      "lugarDescripcion": "Productora audiovisual amb un arxiu digital molt potent que necessita ser revisat i ordenat a través de procesos actuals. La persona estudiant estarà dins l'equip de producció de la productora que varia entre 6 i 8 persones",
+      "horario": "Horario flexible.",
+      "disponibilidad": "A concretar.",
+      "plazas": 1
+    },
+    "recursos": "",
+    "acompanamiento": [
+      "Reunión inicial de contextualización.",
+      "Seguimiento periódico.",
+      "Revisión de avances.",
+      "Acceso a documentación y materiales.",
+      "Orientación técnica o metodológica",
+      "Evaluación final de la experiencia."
+    ],
+    "otroAcompanamiento": "No",
+    "contactoPublico": "No",
+    "cuidadosEticos": [
+      "Protección de datos.",
+      "Derechos de imagen.",
+      "Consentimiento informado.",
+      "Trabajo con colectivos vulnerabilizados.",
+      "Propiedad intelectual.",
+      "Derechos de autoría.",
+      "Licencias de uso o publicación."
+    ],
+    "otroCuidadoEtico": "No",
+    "publicacionAbierta": "No.",
+    "dimensionValor": [
+      "Transformación digital.",
+      "Mejora de la documentación o preservación patrimonial.",
+      "Accesibilidad e inclusión."
+    ],
+    "otraDimensionValor": "No",
+    "otroAspecto": ""
   }
 ]
