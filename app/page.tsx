@@ -77,11 +77,12 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center bg-zinc-50 px-4 py-8">
       <div className="flex w-full max-w-2xl flex-1 flex-col rounded-lg border border-zinc-200 bg-white shadow-sm">
-        <header className="border-b border-zinc-200 px-6 py-4">
-         <h1 className="text-lg font-semibold text-[#009639]">
-            Asistente de prácticas — Humanidades y Patrimonio Digital
-          </h1>
-        </header>
+       <header className="border-b border-zinc-200 px-6 py-4 flex items-center gap-3">
+  <img src="/Uab-logo.png" alt="UAB" className="h-8 w-auto" />
+  <h1 className="text-lg font-semibold text-[#009639]">
+    Asistente de prácticas — Humanidades y Patrimonio Digital
+  </h1>
+</header>
 
         <div className="flex-1 space-y-4 overflow-y-auto px-6 py-4" style={{ maxHeight: "65vh" }}>
           {messages.map((m, i) => (
