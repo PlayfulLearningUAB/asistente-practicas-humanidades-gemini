@@ -112,7 +112,7 @@ export default function Home() {
 
         <div className="flex gap-2 border-t border-zinc-200 px-4 py-3">
           <input
-            className="flex-1 rounded-md border border-zinc-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-zinc-400"
+            className="flex-1 rounded-md border border-zinc-300 px-3 py-2 text-sm text-zin-900 focus:outline-none focus:ring-2 focus:ring-zinc-400"
             placeholder="Escribe tu respuesta…"
             value={input}
             onChange={(e) => setInput(e.target.value)}
