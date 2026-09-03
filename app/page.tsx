@@ -90,7 +90,7 @@ export default function Home() {
                 className={`max-w-[85%] whitespace-pre-wrap rounded-lg px-4 py-2 text-sm ${
                   m.role === "user"
                     ? "bg-zinc-900 text-white"
-                    : "bg-zinc-100 text-zinc-900"
+                    : "bg-zinc-100 [#009639]"
                 }`}
               >
                 {m.role === "assistant" ? renderMarkdownLite(m.content) : m.content}
