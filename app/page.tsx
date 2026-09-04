@@ -28,6 +28,7 @@ function renderMarkdownLite(text: string) {
 const INITIAL_ASSISTANT_MESSAGE: ChatMessage = {
   role: "assistant",
   content:
+    "Soy un asistente automatizado basado en inteligencia artificial (Gemini de Google), no una persona.\n\n" +
     "Hola, estudiante del máster de Humanidades y Patrimonio Digital.\n\n" +
     "Estoy aquí para ayudarte a explorar las entidades disponibles este curso y a identificar tres opciones de centros de prácticas que puedan ajustarse a tus intereses, preferencias y objetivos formativos.\n\n" +
     "Estas tres opciones son una selección inicial que podrás comentar con la coordinadora de prácticas, la Dra. Paloma Valdivia, antes de decidir.\n\n" +
@@ -79,9 +80,12 @@ export default function Home() {
       <div className="flex w-full max-w-2xl flex-1 flex-col rounded-lg border border-zinc-200 bg-white shadow-sm">
        <header className="border-b border-zinc-200 px-6 py-4 flex items-center gap-3">
 <img src="/Uab_logo.png" alt="UAB" className="h-8 w-auto" />
-  <h1 className="text-lg font-semibold text-[#009639]">
-    Asistente de prácticas — Humanidades y Patrimonio Digital
-  </h1>
+  <div>
+    <h1 className="text-lg font-semibold text-[#009639]">
+      Asistente de prácticas — Humanidades y Patrimonio Digital
+    </h1>
+    <p className="text-xs text-zinc-500">Asistente virtual basado en inteligencia artificial (no es una persona).</p>
+  </div>
 </header>
 
         <div className="flex-1 space-y-4 overflow-y-auto px-6 py-4" style={{ maxHeight: "65vh" }}>
