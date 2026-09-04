@@ -4,8 +4,13 @@ import { buildSystemPrompt } from "@/lib/system-prompt";
 
 const MODEL = "gemini-3.1-flash-lite";
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
+const MAX_RETRIES = 3;
 
 type ChatMessage = { role: "user" | "assistant"; content: string };
+
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 export async function POST(req: NextRequest) {
   const { messages } = await req.json();
@@ -27,24 +32,38 @@ export async function POST(req: NextRequest) {
     parts: [{ text: m.content }],
   }));
 
-  const response = await fetch(GEMINI_API_URL, {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      "x-goog-api-key": apiKey,
-    },
-    body: JSON.stringify({
-      system_instruction: { parts: [{ text: buildSystemPrompt() }] },
-      contents,
-      generationConfig: { maxOutputTokens: 1024 },
-    }),
-  });
+  let response: Response | null = null;
+  let errText = "";
 
-  if (!response.ok) {
-    const errText = await response.text();
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    response = await fetch(GEMINI_API_URL, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        "x-goog-api-key": apiKey,
+      },
+      body: JSON.stringify({
+        system_instruction: { parts: [{ text: buildSystemPrompt() }] },
+        contents,
+        generationConfig: { maxOutputTokens: 1024 },
+      }),
+    });
+
+    if (response.ok) break;
+
+    // Solo reintentamos si el modelo está saturado (503); otros errores no mejoran con reintentos.
+    if (response.status !== 503 || attempt === MAX_RETRIES) {
+      errText = await response.text();
+      break;
+    }
+
+    await sleep(1000 * 2 ** attempt); // 1s, 2s, 4s
+  }
+
+  if (!response || !response.ok) {
     return NextResponse.json(
       { error: `Error de la API de Gemini: ${errText}` },
-      { status: response.status }
+      { status: response?.status ?? 500 }
     );
   }
 
@@ -53,5 +72,6 @@ export async function POST(req: NextRequest) {
 
   return NextResponse.json({ text });
 }
+
 
 
